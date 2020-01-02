@@ -1,0 +1,437 @@
+[
+  {
+    "extractText": [
+      "(Eritrócitos)(\\d+)(milhões/mm3)",
+      "(Eritrócitos)\\W+(\\d+)(milhões/mm3)",
+      "(Eritrócitos)\\W+(\\d+)\\W+(milhões/mm3)",
+      "(Eritrócitos)\\W+(\\d+.\\d+)\\W+(milhões/mm3)",
+      "(Eritrócitos)(\\d+.\\d+)\\W+(milhões/mm3)",
+      "(Eritrócitos)\\W+(\\d+.\\d+)(milhões/mm3)",
+      "(Eritrocitos)\\W+(\\d+.\\d+)\\W+(milhoes/mm3)",
+      "(Eritrocitos)\\W+(\\d+)\\W+(milhoes/mm3)",
+      "(Eritrocitos)\\W+(\\d+)(milhoes/mm3)",
+      "(Eritrocitos)(\\d+.\\d+)\\W+(milhoes/mm3)",
+      "(Eritrocitos)\\W+(\\d+.\\d+)(milhoes/mm3)",
+      "(Eritrocitos)(\\d+)(milhoes/mm3)",
+      "(Eritrócitos)\\W+(\\d+.\\d+)\\W+(Milhões/mm3)",
+      "(Eritrócitos)\\W+(\\d+)\\W+(Milhões/mm3)",
+      "(Eritrócitos)\\W+(\\d+)(Milhões/mm3)",
+      "(Eritrócitos)(\\d+.\\d+)\\W+(Milhões/mm3)",
+      "(Eritrócitos)\\W+(\\d+.\\d+)(Milhões/mm3)",
+      "(Eritrócitos)(\\d+)(Milhões/mm3)",
+      "(Eritrocitos)\\W+(\\d+.\\d+)\\W+(Milhoes/mm3)",
+      "(Eritrocitos)\\W+(\\d+)\\W+(Milhoes/mm3)",
+      "(Eritrocitos)\\W+(\\d+)(Milhoes/mm3)",
+      "(Eritrocitos)(\\d+.\\d+)\\W+(Milhoes/mm3)",
+      "(Eritrocitos)\\W+(\\d+.\\d+)(Milhoes/mm3)",
+      "(Eritrocitos)(\\d+)(Milhoes/mm3)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70313",
+      "2",
+      "789-8",
+      "Erythrocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Hemoglobina)\\W+(\\d+)(g/dL)",
+      "(Hemoglobina)\\W+(\\d+)\\W+(g/dL)",
+      "(Hemoglobina)\\W+(\\d+.\\d+)\\W+(g/dL)",
+      "(Hemoglobina)(\\d+.\\d+)\\W+(g/dL)",
+      "(Hemoglobina)\\W+(\\d+.\\d+)(g/dL)",
+      "(Hemoglobina)(\\d+)(g/dL)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70314",
+      "3",
+      "718-7",
+      "Hemoglobin"
+    ]
+  },
+  {
+    "extractText": [
+      "(Hematócrito)\\W+(\\d+)(%)",
+      "(Hematócrito)\\W+(\\d+)\\W+(%)",
+      "(Hematócrito)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Hematócrito)(\\d+.\\d+)\\W+(%)",
+      "(Hematócrito)\\W+(\\d+.\\d+)(%)",
+      "(Hematócrito)(\\d+)(%)",
+      "(Hematocrito)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Hematocrito)\\W+(\\d+)\\W+(%)",
+      "(Hematocrito)\\W+(\\d+)(%)",
+      "(Hematocrito)(\\d+.\\d+)\\W+(%)",
+      "(Hematocrito)\\W+(\\d+.\\d+)(%)",
+      "(Hematocrito)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70315",
+      "4",
+      "4544-3",
+      "Hematocrit"
+    ]
+  },
+  {
+    "extractText": [
+      "(V.C.M.)\\W+(\\d+)(fl)",
+      "(V.C.M.)\\W+(\\d+)\\W+(fl)",
+      "(V.C.M.)\\W+(\\d+.\\d+)\\W+(fl)",
+      "(V.C.M.)(\\d+.\\d+)\\W+(fl)",
+      "(V.C.M.)\\W+(\\d+.\\d+)(fl)",
+      "(V.C.M.)(\\d+)(fl)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70316",
+      "5",
+      "787-2",
+      "Erythrocyte mean corpuscular volume"
+    ]
+  },
+  {
+    "extractText": [
+      "(V.C.M.)\\W+(\\d+)(fL)",
+      "(V.C.M.)\\W+(\\d+)\\W+(fL)",
+      "(V.C.M.)\\W+(\\d+.\\d+)\\W+(fL)",
+      "(V.C.M.)(\\d+.\\d+)\\W+(fL)",
+      "(V.C.M.)\\W+(\\d+.\\d+)(fL)",
+      "(V.C.M.)(\\d+)(fL)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70316",
+      "5",
+      "787-2",
+      "Erythrocyte mean corpuscular volume"
+    ]
+  },
+  {
+    "extractText": [
+      "(H.C.M.)\\W+(\\d+)(pg)",
+      "(H.C.M.)\\W+(\\d+)\\W+(pg)",
+      "(H.C.M.)\\W+(\\d+.\\d+)\\W+(pg)",
+      "(H.C.M.)(\\d+.\\d+)\\W+(pg)",
+      "(H.C.M.)\\W+(\\d+.\\d+)(pg)",
+      "(H.C.M.)(\\d+)(pg)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70317",
+      "6",
+      "785-6",
+      "Erythrocyte mean corpuscular hemoglobin"
+    ]
+  },
+  {
+    "extractText": [
+      "(C.H.C.M.)\\W+(\\d+)(%)",
+      "(C.H.C.M.)\\W+(\\d+)\\W+(%)",
+      "(C.H.C.M.)\\W+(\\d+.\\d+)\\W+(%)",
+      "(C.H.C.M.)(\\d+.\\d+)\\W+(%)",
+      "(C.H.C.M.)\\W+(\\d+.\\d+)(%)",
+      "(C.H.C.M.)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70318",
+      "7",
+      "786-4",
+      "Erythrocyte mean corpuscular hemoglobin concentration"
+    ]
+  },
+  {
+    "extractText": [
+      "(C.H.C.M.)\\W+(\\d+)(g/dL)",
+      "(C.H.C.M.)\\W+(\\d+)\\W+(g/dL)",
+      "(C.H.C.M.)\\W+(\\d+.\\d+)\\W+(g/dL)",
+      "(C.H.C.M.)(\\d+.\\d+)\\W+(g/dL)",
+      "(C.H.C.M.)\\W+(\\d+.\\d+)(g/dL)",
+      "(C.H.C.M.)(\\d+)(g/dL)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70318",
+      "7",
+      "786-4",
+      "Erythrocyte mean corpuscular hemoglobin concentration"
+    ]
+  },
+  {
+    "extractText": [
+      "(RDW)\\W+(\\d+)(%)",
+      "(RDW)\\W+(\\d+)\\W+(%)",
+      "(RDW)\\W+(\\d+.\\d+)\\W+(%)",
+      "(RDW)(\\d+.\\d+)\\W+(%)",
+      "(RDW)\\W+(\\d+.\\d+)(%)",
+      "(RDW)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70320",
+      "9",
+      "788-0",
+      "Erythrocyte distribution width"
+    ]
+  },
+  {
+    "extractText": [
+      "(Leucócitos)\\W+(\\d+)(/mm3)",
+      "(Leucócitos)\\W+(\\d+)\\W+(/mm3)",
+      "(Leucócitos)\\W+(\\d+.\\d+)\\W+(/mm3)",
+      "(Leucócitos)(\\d+.\\d+)\\W+(/mm3)",
+      "(Leucócitos)\\W+(\\d+.\\d+)(/mm3)",
+      "(Leucócitos)(\\d+)(/mm3)",
+      "(Leucocitos)\\W+(\\d+.\\d+)\\W+(/mm3)",
+      "(Leucocitos)\\W+(\\d+)\\W+(/mm3)",
+      "(Leucocitos)\\W+(\\d+)(/mm3)",
+      "(Leucocitos)(\\d+.\\d+)\\W+(/mm3)",
+      "(Leucocitos)\\W+(\\d+.\\d+)(/mm3)",
+      "(Leucocitos)(\\d+)(/mm3)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70312",
+      "1",
+      "6690-2",
+      "Leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Blastos)\\W+(\\d+)(%)",
+      "(Blastos)\\W+(\\d+)\\W+(%)",
+      "(Blastos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Blastos)(\\d+.\\d+)\\W+(%)",
+      "(Blastos)\\W+(\\d+.\\d+)(%)",
+      "(Blastos)(\\d+)(%)",
+      "(Blastos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Blastos)\\W+(\\d+)\\W+(%)",
+      "(Blastos)\\W+(\\d+)(%)",
+      "(Blastos)(\\d+.\\d+)\\W+(%)",
+      "(Blastos)\\W+(\\d+.\\d+)(%)",
+      "(Blastos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "26446-5",
+      "Blasts/100 leukocytes in Blood",
+      "Blasts/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Promielócitos)\\W+(\\d+)(%)",
+      "(Promielócitos)\\W+(\\d+)\\W+(%)",
+      "(Promielócitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Promielócitos)(\\d+.\\d+)\\W+(%)",
+      "(Promielócitos)\\W+(\\d+.\\d+)(%)",
+      "(Promielócitos)(\\d+)(%)",
+      "(Promielocitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Promielocitos)\\W+(\\d+)\\W+(%)",
+      "(Promielocitos)\\W+(\\d+)(%)",
+      "(Promielocitos)(\\d+.\\d+)\\W+(%)",
+      "(Promielocitos)\\W+(\\d+.\\d+)(%)",
+      "(Promielocitos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "783-1",
+      "Promyelocytes/100 leukocytes in Blood by Manual count",
+      "Promyelocytes/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Mielócitos)\\W+(\\d+)(%)",
+      "(Mielócitos)\\W+(\\d+)\\W+(%)",
+      "(Mielócitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Mielócitos)(\\d+.\\d+)\\W+(%)",
+      "(Mielócitos)\\W+(\\d+.\\d+)(%)",
+      "(Mielócitos)(\\d+)(%)",
+      "(Mielocitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Mielocitos)\\W+(\\d+)\\W+(%)",
+      "(Mielocitos)\\W+(\\d+)(%)",
+      "(Mielocitos)(\\d+.\\d+)\\W+(%)",
+      "(Mielocitos)\\W+(\\d+.\\d+)(%)",
+      "(Mielocitos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "749-2",
+      "Myelocytes/100 leukocytes in Blood by Manual count",
+      "Myelocytes/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Metamielócitos)\\W+(\\d+)(%)",
+      "(Metamielócitos)\\W+(\\d+)\\W+(%)",
+      "(Metamielócitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Metamielócitos)(\\d+.\\d+)\\W+(%)",
+      "(Metamielócitos)\\W+(\\d+.\\d+)(%)",
+      "(Metamielócitos)(\\d+)(%)",
+      "(Metamielocitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Metamielocitos)\\W+(\\d+)\\W+(%)",
+      "(Metamielocitos)\\W+(\\d+)(%)",
+      "(Metamielocitos)(\\d+.\\d+)\\W+(%)",
+      "(Metamielocitos)\\W+(\\d+.\\d+)(%)",
+      "(Metamielocitos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "740-1",
+      "Metamyelocytes/100 leukocytes in Blood by Manual count",
+      "Metamyelocytes/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Bastonetes)\\W+(\\d+)(/mm3)",
+      "(Bastonetes)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Bastonetes)\\W+(\\d+)\\W+(/mm3)",
+      "(Bastonetes)(\\d+.\\d+)\\W+(/mm3)",
+      "(Bastonetes)\\W+(\\d+.\\d+)(/mm3)",
+      "(Bastonetes)(\\d+)(/mm3)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "26510-8",
+      "Band form neutrophils/100 leukocytes in Body fluid"
+    ]
+  },
+  {
+    "extractText": [
+      "(Segmentados)\\W+(\\d+)(%)",
+      "(Segmentados)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Segmentados)\\W+(\\d+)\\W+(%)",
+      "(Segmentados)(\\d+.\\d+)\\W+(%)",
+      "(Segmentados)\\W+(\\d+.\\d+)(%)",
+      "(Segmentados)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "26505-8",
+      "Segmented neutrophils/100 leukocytes in Blood",
+      "Neutrophils.band form/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Eosinófilos)\\W+(\\d+)(%)",
+      "(Eosinófilos)\\W+(\\d+)\\W+(%)",
+      "(Eosinófilos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Eosinófilos)(\\d+.\\d+)\\W+(%)",
+      "(Eosinófilos)\\W+(\\d+.\\d+)(%)",
+      "(Eosinófilos)(\\d+)(%)",
+      "(Eosinofilos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Eosinofilos)\\W+(\\d+)\\W+(%)",
+      "(Eosinofilos)\\W+(\\d+)(%)",
+      "(Eosinofilos)(\\d+.\\d+)\\W+(%)",
+      "(Eosinofilos)\\W+(\\d+.\\d+)(%)",
+      "(Eosinofilos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70331",
+      "7",
+      "713-8",
+      "Eosinophils/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Basófilos)\\W+(\\d+)(%)",
+      "(Basófilos)\\W+(\\d+)\\W+(%)",
+      "(Basófilos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Basófilos)(\\d+.\\d+)\\W+(%)",
+      "(Basófilos)\\W+(\\d+.\\d+)(%)",
+      "(Basófilos)(\\d+)(%)",
+      "(Basofilos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Basofilos)\\W+(\\d+)\\W+(%)",
+      "(Basofilos)\\W+(\\d+)(%)",
+      "(Basofilos)(\\d+.\\d+)\\W+(%)",
+      "(Basofilos)\\W+(\\d+.\\d+)(%)",
+      "(Basofilos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70332",
+      "8",
+      "706-2",
+      "Basophils/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Linfócitos Típicos)\\W+(\\d+)(%)",
+      "(Linfócitos Típicos)\\W+(\\d+)\\W+(%)",
+      "(Linfócitos Típicos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Linfócitos Típicos)(\\d+.\\d+)\\W+(%)",
+      "(Linfócitos Típicos)\\W+(\\d+.\\d+)(%)",
+      "(Linfócitos Típicos)(\\d+)(%)",
+      "(Linfocitos Tipicos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Linfocitos Tipicos)\\W+(\\d+)\\W+(%)",
+      "(Linfocitos Tipicos)\\W+(\\d+)(%)",
+      "(Linfocitos Tipicos)(\\d+.\\d+)\\W+(%)",
+      "(Linfocitos Tipicos)\\W+(\\d+.\\d+)(%)",
+      "(Linfocitos Tipicos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70328",
+      "4",
+      "736-9",
+      "Lymphocytes/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Linfócitos Atípicos)\\W+(\\d+)(%)",
+      "(Linfócitos Atípicos)\\W+(\\d+)\\W+(%)",
+      "(Linfócitos Atípicos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Linfócitos Atípicos)(\\d+.\\d+)\\W+(%)",
+      "(Linfócitos Atípicos)\\W+(\\d+.\\d+)(%)",
+      "(Linfócitos Atípicos)(\\d+)(%)",
+      "(Linfocitos Atipicos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Linfocitos Atipicos)\\W+(\\d+)\\W+(%)",
+      "(Linfocitos Atipicos)\\W+(\\d+)(%)",
+      "(Linfocitos Atipicos)(\\d+.\\d+)\\W+(%)",
+      "(Linfocitos Atipicos)\\W+(\\d+.\\d+)(%)",
+      "(Linfocitos Atipicos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70329",
+      "5",
+      "42250-1",
+      "Lymphocytes.variant/100 leukocytes"
+    ]
+  },
+  {
+    "extractText": [
+      "(Monócitos)\\W+(\\d+)(%)",
+      "(Monócitos)\\W+(\\d+)\\W+(%)",
+      "(Monócitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Monócitos)(\\d+.\\d+)\\W+(%)",
+      "(Monócitos)\\W+(\\d+.\\d+)(%)",
+      "(Monócitos)(\\d+)(%)",
+      "(Monocitos)\\W+(\\d+.\\d+)\\W+(%)",
+      "(Monocitos)\\W+(\\d+)\\W+(%)",
+      "(Monocitos)\\W+(\\d+)(%)",
+      "(Monocitos)(\\d+.\\d+)\\W+(%)",
+      "(Monocitos)\\W+(\\d+.\\d+)(%)",
+      "(Monocitos)(\\d+)(%)"
+    ],
+    "extractionGroupQuantity": 3,
+    "extraData": [
+      "70330",
+      "6",
+      "5905-5",
+      "Monocytes/100 leukocytes"
+    ]
+  }
+]
+    
