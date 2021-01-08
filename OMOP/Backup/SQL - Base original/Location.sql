@@ -11,7 +11,7 @@ create or replace view view_location AS
          pessoa.seq_pessoa person_source
     from pessoa
     inner join endereco ON pessoa.seq_pessoa = endereco.seq_pessoa
-    inner join paciente ON pessoa.seq_pessoa = paciente.seq_paciente
+    inner join pessoa ON pessoa.seq_pessoa = endereco.seq_pessoa
     inner join municipio on ( municipio.seq_municipio = pessoa.seq_municipio and 
                               municipio.seq_pais = pessoa.seq_pais )
     inner join uf ON municipio.seq_uf = uf.seq_uf
